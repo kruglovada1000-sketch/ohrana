@@ -1,0 +1,11 @@
+# Минимальная безопасная конфигурация для Reg.ru
+Options -Indexes
+DirectoryIndex index.html index.php
+RewriteEngine On
+
+# Статьи переехали из корня в /stati/
+Redirect 301 /pultovaya-ohrana-kak-rabotaet.html /stati/pultovaya-ohrana-kak-rabotaet.html
+Redirect 301 /ohrana-fizicheskih-lic.html /stati/ohrana-fizicheskih-lic.html
+Redirect 301 /kak-vybrat-chop-dlya-ohrany-strojki.html /stati/kak-vybrat-chop-dlya-ohrany-strojki.html
+Redirect 301 /stoimost-bezopasnosti.html /stati/stoimost-bezopasnosti.html
+Redirect 301 /5-priznakov-nenadyozhnoj-ohrannoj-firmy.html /stati/5-priznakov-nenadyozhnoj-ohrannoj-firmy.html
